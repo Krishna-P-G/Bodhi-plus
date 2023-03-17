@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.signupadmin-page{
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/5182840.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.signupadmin-box{
+    top: 10%;
+    left: 5%;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(240, 243, 246, 0.604);
+    border-radius: 12.5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.signupadmin-text{
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    font-size: 40px;
+    color: rgb(57, 55, 55);
+    font-family: 'Quicksand', sans-serif;
+}
+.name-text{
+    position: absolute;
+    top: 17.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.name-in{
+    position: absolute;
+    top: 22.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.phno-text{
+    position: absolute;
+    top: 31.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.phno-in{
+    position: absolute;
+    top: 36.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.mail1-text{
+    position: absolute;
+    top: 46.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.mail1-in{
+    position: absolute;
+    top: 51.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.pw1-text1{
+    position: absolute;
+    top: 61.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.pw1-in1{
+    position: absolute;
+    top: 66.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+
+.signup-btn2{
+    position: absolute;
+    top: 85.5%;
+    left: 14%;
+    width: 356px;
+    height: 46px;
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: rgb(53, 52, 52);
+}
+.signup-btn2:hover{
+    background-image: linear-gradient(to right, rgb(120, 190, 252) , rgb(212, 0, 255));;
+}
+.nameerror-text{
+    color: red;
+    position: absolute;
+    top: 18.4%;
+    left: 23%;
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+}
+.phnoerror-text{
+    color: red;
+    position: absolute;
+    top: 32.3%;
+    left: 37%;
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+}
+.mailerror1-text{
+    color: red;
+    position: absolute;
+    top: 47%;
+    left: 20%;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+.pwerror1-text{
+    color: red;
+    position: absolute;
+    top: 62.2%;
+    left: 27.5%;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+/* .quote-1{
+    position: absolute;
+    color: aliceblue;
+    top: 10%;
+    left: 120%;
+    font-size: 100px;
+    font-family:'Courier New', Courier, monospace;
+} */
