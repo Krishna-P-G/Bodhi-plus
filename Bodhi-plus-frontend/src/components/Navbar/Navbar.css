@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+.navbar-page{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+}
+.navbar-div ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline-start: -20px;
+}
+.brand-name-1{
+    height: 22.5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-right: 40px;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+.nav-searchbar{
+    display: flex;
+  align-items: center;
+  padding-left: 5px;
+  height: 27px;
+  width: 500px;
+  border-radius: 5px;
+  border: none;
+}
+
+.filter-div {
+    position: relative; 
+  }
+  
+  .filter-btn {
+    width: 156px;
+    height: 46px;
+    margin-left: 200px; 
+    font-size: 15px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: crimson;
+    font-family: 'Roboto Slab', serif;
+  }
+  

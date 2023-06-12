@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+.gym-page{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: -10;
+    background-color: white;
+}
+.gym-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgba(4, 24, 18, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 44px 45px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.admin-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgba(4, 24, 18, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 44px 45px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.edit-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    padding-top: 5px;
+    font-size: 18px;
+    border: 1.1px black solid;
+    border-radius: 50px;
+}
+.delete-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 18%;
+    padding-top: 5px;
+    font-size: 18px;
+    border: 1.1px black solid;
+    border-radius: 50px;
+    left: 4.5%;
+}
+.edit-btn:hover, .delete-btn:hover{
+    background-color: rgba(255, 0, 0, 0.775);
+    color: aliceblue;
+    border: none;
+    transform: scale(1.2);
+}
+.gym-div:hover{
+    transform: scale(1.1);
+}
+.gym-img{
+    width: 230px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.gym-name{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 13px;
+    font-family: 'Source Serif Pro', serif;
+}
+.gym-rate{
+    font-size: 16px;
+    color: #888;
+    display: flex;
+    padding-bottom: 20px;
+    font-family: 'Source Serif Pro', serif;
+}
+.gym-description{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    border: none;
+    top:88%;
+    font-family: 'Source Serif Pro', serif;
+}
+.addpage-link{
+    font-size: 15px;
+    color: black;
+    font-family:'Roboto Slab', serif;
+
+}
+.addpage-linkbtn{
+    position: absolute;
+    width: 156px;
+    height: 46px;
+    top:1%;
+    left:85%;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: #9999;
+
+}
